@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Lato&family=Poppins&family=Roboto&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&family=Titillium+Web:wght@300&display=swap');
+
+
+.projectContainer {
+    background-color: white;
+}
+
+/* Heading Project and Work EXP  */
+.projectHeading {
+    font-size: 18px;
+    background-color:whitesmoke;
+    color: #0C0C0C;
+    font-family: Lato;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+
+
+}
+
+/* Grid */
+.projectsInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Project Boxes */
+.projectpreview {
+    max-width: 580px; 
+    width: 580px;
+    outline: 2px solid #282828 ;
+    background-color: #F6F6F6;
+
+    color: #282828;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.projectTop {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.projectimage {
+    width: 580px;
+    height: 310px;
+
+}
+
+.projectstyle {
+    width: 30px; 
+}
+
+.projectName {
+    font-family: Lato;
+    font-size: 27px;
+
+    
+}
+
+
+/* Description */
+.projectBottom {
+    font-family: Titillium Web;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.projectMiddle {
+    color: white; 
+    font-family: lato;
+    display: flex;
+    justify-content: flex-start;
+     margin: 5px 20px 5px 20px;
+    gap: 10px;
+    
+}
+
+
+.indvTool {
+    background-color: #0099cc;
+    border-radius: 4px 4px 4px 4px;
+    padding: 4px 20px 4px 20px;
+    font-size: 17px; 
+}

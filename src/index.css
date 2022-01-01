@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+  margin: 0px; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/*- ------------- Landing COMPONENT ----------------- */
+
+.backgroundContainer {
+  height: 100vh;
+  background-image: url(./assets/images/backImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex; 
+  opacity: 95%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* Middle Box  */
+.primaryContainer{
+  outline: 3px solid white;
+  padding-right: 175px; 
+  padding-left: 175px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  align-items: center;
+
+  font-size: 75px;
+  color: white;
+  font-family: Poppins;
+  
+}
+
+/*  Name and Univeristy Info  */
+
+.name {
+  text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.university {
+  font-size: 20px;
+  font-family: Poppins;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+/* Social Media Logos  */
+
+.logo-image {
+  max-width: 37px; 
+  max-height: 36px; 
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
+}
+
+.logoInfo {
+  display: flex;
+  gap: 40px;
+  padding:0px;
+  margin-top: -20px; 
+}
+
+
+/*- ------------- Footer COMPONENT ----------------- */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2B2B2B;
+  color: white;
+  padding: 17px 40px 17px 40px; 
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 12px;
+}
+
+.iconimage {
+  max-width: 34px;
+  max-height: 20px;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
 }
