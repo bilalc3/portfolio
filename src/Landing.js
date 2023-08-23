@@ -29,6 +29,8 @@ const datas = [
 const Landing = () => {
 
 
+
+
     
     return (  
         <div className="backgroundContainer">
@@ -39,7 +41,7 @@ const Landing = () => {
                 </div>
 
                 <div className="university">
-                    1st year Computer Science Student at the Univeristy of Waterloo
+                    3rd year Computer Science Student at the Univeristy of Waterloo
                 </div>
 
 
