@@ -3,6 +3,9 @@ import project from "./assets/images/projectlogo.png"
 import worklogo from "./assets/images/work.png"
 import nasheedify from "./assets/images/nasheedifylogo.png"
 import emegle from "./assets/images/emegle3.png"
+import chess from "./assets/images/chess.png"
+import mips from "./assets/images/mips.jpeg"
+import studyHub from "./assets/images/studyhub.png"
 import './assets/css/Projects.css'; 
 
 
@@ -36,8 +39,34 @@ const projects =[
         tools: ["React", "Node.js", "Socket.io"], 
         link: "https://emegle-76079.firebaseapp.com/",
         id: 3
-    }, 
-
+    }, {
+        name: "StudyHub", 
+        description: "An ALL-IN-ONE web application that offers various student-related support including bult-in calculators, timers, games, and more.",  
+        image: studyHub, 
+        type: project,
+        tools2: "React, Boostrap, JQuery", 
+        tools: ["React", "Boostrap", "JQuery"], 
+        link: "https://github.com/bilalc3/studyhub",
+        id: 4
+    }, {
+        name: "Chess", 
+        description: "Chess game featuring advanced Object-Oriented principles, diverse gameplay modes, adaptive AI, and a visual interface created with XWindow and the Observer pattern.",  
+        image: chess, 
+        type: project,
+        tools2: "C++, XWindow, XBitMap", 
+        tools: ["C++", "XWindow", "XBitMap"], 
+        link: "/",
+        id: 5
+    } , {
+        name: "WLP4 Compiler", 
+        description: "WLP4 compiler employing LR(1) scanning, bottom-up parsing, and context-sensitive analysis techniques to classify well-formed code syntactically and semantically via exception handling.",  
+        image: mips, 
+        type: project,
+        tools2: "C++, WLP4, MIPS", 
+        tools: ["C++", "WLP4", "MIPS"], 
+        link: "/",
+        id: 6
+    }
 ]
 
 
@@ -47,7 +76,7 @@ const Projects = () => {
     return ( 
         <div className="projectContainer">
            <div className="projectHeading">
-                <h1>Projects/Work Experience</h1>
+                <h1>Projects</h1>
             </div>
 
             <div className="projectsInfo">
